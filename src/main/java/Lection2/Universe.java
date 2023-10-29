@@ -1,9 +1,7 @@
 package Lection2;
 /*
 Возраст Вселенной по сравнению с возрастом человечества
- */
-
-
+*/
 public class Universe {
     public static void main(String[] args) {
         long ageOfTheUniverse = 13000000000L;

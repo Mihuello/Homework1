@@ -1,6 +1,7 @@
 package Lection2;
+
 /*Задача о количестве сотрудников на проекте
-*/
+ */
 public class Employee {
     public static void main(String[] args) {
         int programmers = 100, testers = 50, support = 5;
@@ -13,7 +14,5 @@ public class Employee {
         System.out.println("Количество тестировщиков, требуемое на проекте: " + testersOnProject);
         System.out.println("Количество специалистов поддержки, требуемое на проекте: " + supportOnProject);
         System.out.println("Общее количество технических специалистов на проекте : " + technicalSpecialist);
-
-
     }
 }
