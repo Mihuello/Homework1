@@ -10,10 +10,12 @@ public class Shirts {
         int shirtWithoutDiscount = 2300;
         int numberOfSelectedShirts = 3;
         int wholeSaleShirtsPromotion = 4;
+        double discount = 20;
+
         int numberOfShirtsThatNeedToBeAddedToThePurchasedOnesToGetADiscount = wholeSaleShirtsPromotion - numberOfSelectedShirts;
         int totalNumberOfShirtsWithoutDiscount = shirtWithoutDiscount * numberOfSelectedShirts;
         int totalPriceOfShirtsWithoutDiscountThatYouNeedToBuyToGetADiscount = totalNumberOfShirtsWithoutDiscount + shirtWithoutDiscount;
-        double discount = 20;
+
         double coefficientDiscount = discount / 100;
         double allShirtsAreDiscounted = (totalPriceOfShirtsWithoutDiscountThatYouNeedToBuyToGetADiscount * coefficientDiscount) * wholeSaleShirtsPromotion;
         double oneShirtWithADiscount = totalPriceOfShirtsWithoutDiscountThatYouNeedToBuyToGetADiscount * coefficientDiscount;

@@ -8,8 +8,9 @@ public class TravelTime {
     public static void main(String[] args) {
         int distanceFromHomeToOffice = 20;
         double taxiSpeed = 40;
-        double testerGoesToTheOffice = distanceFromHomeToOffice / taxiSpeed;
         int ratio = 6;
+        
+        double testerGoesToTheOffice = distanceFromHomeToOffice / taxiSpeed;
         double testerGoesToTheHome = testerGoesToTheOffice * ratio;
 
         System.out.println("Расстояние в километрах от дома до офиса : " + distanceFromHomeToOffice);
